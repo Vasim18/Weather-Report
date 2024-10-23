@@ -1,0 +1,56 @@
+html {
+    background-color: #73C2FB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: thick;
+    padding: 0;
+    margin: 50px auto;
+    max-width: 1200px; /* Centering the body */
+    background-color: #008ECC;
+}
+
+.weatherInput {
+    border: 5px solid;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #73C2FB;
+    text-align: center; 
+}
+
+.weatherCards {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.daysForecast {
+    text-align: center; 
+}
+
+li {
+    float: left;
+    margin: 0 20px; /* Adjust margins for spacing */
+    border: 5px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #73C2FB;
+    width: 150px; /* Set a fixed width for cards */
+}
+
+#fdf {
+    margin: 90px 0 0;
+}
+
+.currentWeather {
+    margin: 50px auto;
+    padding: 25px;
+    border: 5px solid;
+    border-radius: 25px;
+    background-color: #73C2FB;
+    text-align: center; /* Center the weather details */
+}
